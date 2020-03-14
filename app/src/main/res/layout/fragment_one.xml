@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textColor="#3399ff"
+            android:id="@+id/dangnhap" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Nhạc Của Tui"
+            android:layout_below="@+id/dangnhap"
+            android:id="@+id/nhaccuatui" />
+        <Button
+            android:id="@+id/playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Playlist"
+            android:gravity="left"
+            android:layout_below="@+id/nhaccuatui"
+            android:drawableLeft="@drawable/iconplaylist2"/>
+        <Button
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Video"
+            android:gravity="left"
+            android:layout_below="@+id/playlist"
+            android:drawableLeft="@drawable/iconvideo2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offline"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_below="@+id/video"
+            android:id="@+id/offline"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Thư viện nhạc"
+            android:id="@+id/thuviennhac"
+            android:gravity="left"
+            android:layout_below="@+id/offline"
+            android:drawableLeft="@drawable/iconmusiclibrary"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Video"
+            android:id="@+id/OfflineVideo"
+            android:gravity="left"
+            android:layout_below="@id/thuviennhac"
+            android:drawableLeft="@drawable/iconvideo"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Đang tải"
+            android:gravity="left"
+            android:id="@+id/Dangtai"
+            android:layout_below="@id/OfflineVideo"
+            android:drawableLeft="@drawable/icondownload"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miễn phí 3G"
+            android:layout_below="@+id/Dangtai"
+            android:id="@+id/Mienphi3G"
+            android:drawableTop="@drawable/icon3g1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="NhacCuaTuiVIP"
+            android:layout_below="@+id/Dangtai"
+            android:id="@+id/NhaccuatuiVIP"
+            android:drawableTop="@drawable/iconvip"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/Dangtai"
+            android:layout_below="@+id/Dangtai"
+            android:text="Chủ đề"
+            android:id="@+id/Chude"
+            android:drawableTop="@drawable/iconchude"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Mienphi3G"
+            android:text="Lịch sử"
+            android:id="@+id/Lichsu"
+            android:drawableTop="@drawable/iconhistory"
+            android:layout_alignBottom="@+id/cnqtbk"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NhaccuatuiVIP"
+            android:layout_centerHorizontal="true"
+            android:text="Chuyển nhạc qua \n thiết bị khác"
+            android:id="@+id/cnqtbk"
+            android:drawableTop="@drawable/iconphone"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Chude"
+            android:layout_alignRight="@+id/Chude"
+            android:text="QR Code"
+            android:id="@+id/QRCode"
+            android:drawableTop="@drawable/iconqrcode"
+            android:layout_alignBottom="@+id/cnqtbk"/>
+
+    </RelativeLayout>
+
+</ScrollView>

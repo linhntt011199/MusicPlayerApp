@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangnhapTwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:hint=" Nhập số điện thoại"
+        android:drawableLeft="@drawable/iconsdt"/>
+    <EditText
+        android:hint=" Mật khẩu"
+        android:drawableLeft="@drawable/iconpassword"/>
+    <Button
+        android:text="Đăng nhập"/>
+    <Button
+        android:text="Quên mật khẩu"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="----------Hoặc----------"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TableRow>
+        <Button
+            android:text="Facebook"
+            android:layout_width="wrap_content"
+            android:width="200dp"
+            android:drawableLeft="@drawable/iconfacebook"/>
+        <Button
+            android:text="Google"
+            android:layout_width="wrap_content"
+            android:width="200dp"
+            android:drawableLeft="@drawable/icongoogle"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="            Bạn chưa có tài khoản?"/>
+        <Button
+            android:text="Đăng ký"/>
+    </TableRow>
+
+</TableLayout>
